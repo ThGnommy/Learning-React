@@ -4,7 +4,6 @@ const Person = (props) => {
   return (
     <div>
       <h1>Ciao! Sono {props.name} ed ho {props.age} anni!</h1>
-      <h1>{props.children}</h1>
     </div>
   )
 }
